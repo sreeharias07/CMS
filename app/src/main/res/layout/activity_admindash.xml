@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_admindash">
+
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="316dp"
+        android:src="@drawable/fry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/fry"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="350dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="-45dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="358dp"
+        tools:layout_editor_absoluteY="93dp" />
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="-30dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:src="@drawable/eye"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints="@string/prompt_email"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="271dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="60dp"
+        android:text="ADMIN PANEL"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints="@string/prompt_password"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:hint="@string/prompt_password"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <RadioButton
+        android:id="@+id/radioButtonadd"
+        android:layout_width="131dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="292dp"
+        android:text="Add"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RadioButton
+        android:id="@+id/radioButtonremove"
+        android:layout_width="131dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="292dp"
+        android:text="Remove"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/radioButtonadd" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="144dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="64dp"
+        android:background="#673AB7"
+        android:enabled="false"
+        android:text="SUBMIT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.463" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
