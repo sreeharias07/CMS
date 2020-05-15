@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_admindash">
+
+
+    <ImageView
+        android:layout_width="76dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="232dp"
+        android:src="@drawable/fry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="120dp"
+        android:src="@drawable/fry"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="174dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/eye"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="540dp"
+        android:src="@drawable/eye"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginBottom="556dp"
+        android:src="@drawable/eye"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="112dp"
+        android:src="@drawable/eye"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/eye"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="194dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginBottom="540dp"
+        android:src="@drawable/eye"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="220dp"
+        android:layout_marginStart="16dp"
+        android:src="@drawable/eye"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="97dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="416dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/eye"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/usLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints="@string/prompt_email"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:hint="@string/prompt_email"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="271dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="76dp"
+        android:text="ADMIN PANEL"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/usPass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:autofillHints="@string/prompt_password"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:hint="@string/prompt_password"
+        android:imeActionLabel="@string/action_sign_in_short"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usLogin" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="144dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="64dp"
+        android:background="#673AB7"
+        android:enabled="false"
+        android:text="SUBMIT"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usPass"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <RadioGroup
+        android:id="@+id/apRadioGroup"
+        android:layout_width="195dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#1B0505"
+            android:text="DELETE"
+            android:textColor="#F40707" />
+    </RadioGroup>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
