@@ -1,7 +1,5 @@
 package com.example.canteenmanagement;
 
-<<<<<<< Updated upstream
-=======
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,15 +7,11 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
-
->>>>>>> Stashed changes
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-<<<<<<< Updated upstream
 public class activity_admindash extends AppCompatActivity {
-=======
     EditText user;
     EditText pass;
     RadioGroup rg;
@@ -25,16 +19,13 @@ public class activity_admindash extends AppCompatActivity {
     Button bSubmit;
 
     myDbAdapter myDb;
->>>>>>> Stashed changes
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admindash);
-<<<<<<< Updated upstream
     }
 }
-=======
 
         myDb = new myDbAdapter(this);
 
@@ -75,4 +66,3 @@ public class activity_admindash extends AppCompatActivity {
 
 
 
->>>>>>> Stashed changes
