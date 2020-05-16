@@ -10,8 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-<<<<<<< Updated upstream
-=======
+
 
     private EditText user;
     private EditText pass;
@@ -21,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     private RadioButton rb;
     private TextView t;
 
->>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
