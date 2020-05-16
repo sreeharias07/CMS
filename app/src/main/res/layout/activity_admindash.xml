@@ -185,8 +185,39 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< Updated upstream
         app:layout_constraintTop_toBottomOf="@+id/password"
         app:layout_constraintVertical_bias="0.463" />
+=======
+        app:layout_constraintTop_toBottomOf="@+id/usPass"
+        app:layout_constraintVertical_bias="0.398" />
+
+    <RadioGroup
+        android:id="@+id/apRadioGroup"
+        android:layout_width="195dp"
+        android:layout_height="81dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioButtonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STUDENT"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#1B0505"
+            android:text="CANTEEN"
+            android:textColor="#F40707" />
+    </RadioGroup>
+
+>>>>>>> Stashed changes
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 

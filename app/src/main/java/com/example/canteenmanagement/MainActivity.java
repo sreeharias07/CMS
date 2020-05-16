@@ -10,6 +10,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+<<<<<<< Updated upstream
+=======
+
+    private EditText user;
+    private EditText pass;
+    private Button blogin;
+    private Button btest;
+    private RadioGroup rg;
+    private RadioButton rb;
+    private TextView t;
+
+>>>>>>> Stashed changes
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
