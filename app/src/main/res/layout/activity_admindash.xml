@@ -185,10 +185,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
-<<<<<<< Updated upstream
         app:layout_constraintTop_toBottomOf="@+id/password"
         app:layout_constraintVertical_bias="0.463" />
-=======
         app:layout_constraintTop_toBottomOf="@+id/usPass"
         app:layout_constraintVertical_bias="0.398" />
 
@@ -217,7 +215,6 @@
             android:textColor="#F40707" />
     </RadioGroup>
 
->>>>>>> Stashed changes
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
